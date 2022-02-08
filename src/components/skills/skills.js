@@ -29,7 +29,7 @@ const skills = () => {
             <div className="skill-photo">
               <img
                 className="photo-profile"
-                src="/images/photo.jpeg"
+                src="images/photo.jpeg"
                 width={200}
                 height={200}
               />

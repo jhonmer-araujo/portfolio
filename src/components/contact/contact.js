@@ -5,6 +5,7 @@ const contact = () => {
         <section id="contact" className="contact">
             <h2>Contact Me</h2>
             <form action="https://formsubmit.co/jhonmer.araujo@gmail.com" method="POST" >
+                <input type="hidden" name="_next" value="https://jhonmer-araujo.github.io/portfolio/thanks.html" />
                 <label forHtml="name">Name / Company</label>
                 <input type="text" id="name" name="name" placeholder="" />
                 <label forHtml="email">Email</label>
