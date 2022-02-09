@@ -10,11 +10,11 @@ const hero = () => {
               Jhon Araujo
             </h1>
             <h3>
-              Software developer with an extensive background in the IT industry for more than 10 years.
+              Software developer with an extensive background in IT for more than 10 years.
             </h3>
             <br />
             <h4>
-              I will make a lasting positive impact on your yours projects and I will always put the commercial needs of your business at the forefront of everything I do.
+              I will make a positive impact on yours projects and I will always put the commercial needs of your business at the forefront of everything I do.
             </h4>
           </div>
           <div className="hero-social">
