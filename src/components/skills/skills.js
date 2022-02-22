@@ -7,17 +7,9 @@ const skills = () => {
         <div className="skills-column">
           <h1>About Me</h1>
           <div class="skills-title">
-            <h3>
-              I am hardworking, driven, ethical and responsible software
-              developer.
-            </h3>
+            <h3></h3>
           </div>
-          <p>
-            I am a software developer with an extensive background in IT for more than 10 years. My past work experiences have allowed me to strengthen my abilities in programming and solving complex problems.
-          </p>
-          <p>
-            In the past, before becoming a web and mobile developer, I used to be an Oracle consultant for around 7 years. I was a SQL tuning specialist certified by Oracle and worked as an analyst programmer and team coordinator for big clients in the insurance and telecommunication industry..
-          </p>
+          <p>I am hardworking, driven, ethical and responsible software developer.. My past work experiences have allowed me to strengthen my abilities in programming and solving complex problems.</p>
           <div className="skill-images">
             <div className="skill-photo">
               <img
