@@ -203,7 +203,7 @@ const Projects = () => {
           {items.map((item) => (
             <div className={"column " + item.type}>
               <div className="content">
-                <img src={item.image} alt="Mountains" width={'100%'} />
+                <img src={item.image} alt="" width={'100%'} />
                 <div className="middle">
                   <p><b>{item.title.toUpperCase()}</b></p>
                   <p>{item.description}</p>
