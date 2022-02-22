@@ -4,7 +4,7 @@ const header = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <nav className="header-nav">
+        <nav className="header-nav" id="navbar">
           <ul>
             <li>
               <a href="index.html" className="">

@@ -3,7 +3,7 @@ import React from "react";
 const hero = () => {
   return (
     <>
-      <section id="hero" className="hero">
+      <section id="welcome-section" className="hero">
        <div className="row">
           <div className="hero-descriptions">
             <h1>
@@ -20,13 +20,13 @@ const hero = () => {
           <div className="hero-social">
             <ul className="intro-social">
               <li>
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://linkedin.com/in/jhonmeraraujo" class="fa fa-linkedin"></a>
               </li>
               <li>
-                <a href="#" class="fa fa-github"></a> 
+                <a href="https://github.com/jhonmer.araujo" class="fa fa-github" id="profile-link"></a> 
               </li>
               <li>
-                <a href="#" class="fa fa-twitter"></a>
+                <a href="https://twitter.com/jh0nm3r" class="fa fa-twitter"></a>
               </li>
             </ul>
           </div>

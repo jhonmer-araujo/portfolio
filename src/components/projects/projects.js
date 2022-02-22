@@ -160,6 +160,16 @@ const itemsData = [
     github: "",
     type: "Websites",
     tech: ["React", "Vanila CSS", "Javascript", "JQuery", "RESTful API", "ARC XP"],
+  },
+  {
+    id: 17,
+    title: "Python tutorial",
+    description: "A Python technicnal documentation page",
+    image: "images/python-tutorial.png",
+    link: "https://jhonmer-araujo.github.io/python-technical-documentation-page/",
+    github: "",
+    type: "Websites",
+    tech: ["HTML", "Vanila CSS"],
   }
 ];
 
@@ -201,7 +211,7 @@ const Projects = () => {
                   {item.tech.map((i) => (
                     <span>{i}, </span>
                   ))}
-                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" id="project-tile">
                     <div className="button">
                       Go to live
                     </div>

@@ -40,10 +40,11 @@ a {
     -webkit-box-direction: normal;
     flex-flow: row wrap;
 }
-.header nav {
-    padding: 3rem 0;
+#navbar {
     float: left;
-    width: 80%;
+    width: 100%;
+    position: fixed;
+    background-color: #0b0a15;
 }
 .header-nav ul {
     list-style: none;
@@ -71,10 +72,11 @@ a {
     line-height: inherit;
 }
 .btn-resume {
-    float: left;
     width: 20%;
-    padding: 4rem 0;
+    padding: 1.5rem 0;
     text-align: center;
+    position: fixed;
+    margin-left: 80%;
 }
 .btn-resume-border {
     background: linear-gradient(to right, blue, purple);
